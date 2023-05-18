@@ -1,4 +1,4 @@
 all: build
 
 build:
-	clang main.c
+	@clang main.c -o main
